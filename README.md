@@ -788,7 +788,7 @@ for i in range(len(input)):
 	v6+= (ord(input[i])-0x30)<<i
 	print v6;
 print hex(v6);
-V6*7 == 0xf423f
+#V6*7 == 0xf423f
 ```
 因为长度是未知的，因此我随便找了一个解79889000968999
 （注意，答案是分两部分，这是第二部分的）
